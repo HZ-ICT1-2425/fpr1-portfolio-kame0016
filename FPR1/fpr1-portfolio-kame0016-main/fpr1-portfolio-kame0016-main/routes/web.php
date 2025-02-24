@@ -3,10 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
-})->name('home');
-
-Route::get('/home', function () {
     return view('homePage');
 })->name('home');
 
@@ -26,6 +22,6 @@ Route::get('/faq', function () {
     return view('faq');
 })->name('faq');
 
-Route::get('/blog', function () {
-    return view('blog');
-})->name('blog');
+Route::get('/posts', function () {
+    return view('postController');
+})->name('postController');

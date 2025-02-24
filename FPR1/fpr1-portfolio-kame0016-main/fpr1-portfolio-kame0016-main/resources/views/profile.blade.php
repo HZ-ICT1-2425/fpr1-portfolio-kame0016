@@ -66,7 +66,7 @@
     </ul>
 </aside>
 <div>
-    <img id="ironCross" src="media/iron crossss.png" alt="iron cross" width="auto" height="250"
+    <img id="ironCross" src="public/img/iron crossss.png" alt="iron cross" width="auto" height="250"
          style="position: absolute; right: 40px; bottom: 100px;">
 </div>
 </body>

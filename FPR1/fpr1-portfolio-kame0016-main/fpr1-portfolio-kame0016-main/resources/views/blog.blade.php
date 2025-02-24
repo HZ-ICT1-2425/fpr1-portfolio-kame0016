@@ -10,7 +10,7 @@
     <a href="profile">PROFILE PAGE</a>
     <a href="dashboard">DASHBOARD</a>
     <a href="faq">FAQ</a>
-    <a class="pageButton" href="blog">BLOG</a>
+    <a class="pageButton" href="posts">BLOG</a>
 </nav>
 <main>
     BLOG

@@ -4,14 +4,7 @@
     <title>Home page</title>
 
 <body>
-<link href="/resources/css/app.css">
-<nav>
-    <a class="pageButton" href="home">HOME PAGE</a>
-    <a href="profile">PROFILE PAGE</a>
-    <a href="dashboard">DASHBOARD</a>
-    <a href="faq">FAQ</a>
-    <a href="blog">BLOG</a>
-</nav>
+<x-layout>
 <main>
     MY OPINION AND MOTIVATION FOR THE HBO ICT PROGRAMME
 </main>
@@ -39,28 +32,13 @@
     <li><span class="span"><a href="opinion.blade.php">opinion and motivation</a></span></li>
     <li><span class="span"><a href="https://hz.nl/" target="_blank" rel="noreferrer noopener">HZ WEBSITE</a></span></li>
 </ul>
-<aside>
-    <ul class="menuIndex">
-        <li><span class="span"><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank"
-                                  rel="noreferrer noopener"> COURSE EXAMINATION REGULATIONS</a></span></li>
-        <li><span class="span"><a
-                    href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
-                    target="_blank" rel="noreferrer noopener">IMPLIMENTATION REGULATIONS</a></span></li>
-        <li><span class="span"><a
-                    href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937"
-                    target="_blank" rel="noreferrer noopener">LEARN ENVIROMENT</a></span></li>
-        <li><span class="span"><a href="https://learn.hz.nl/my/" target="_blank" rel="noreferrer noopener">STUDY
-            PROGRESS</a></span></li>
-        <li><span class="span"><a href="https://github.com/HZ-HBO-ICT" target="_blank"
-                                  rel="noreferrer noopener">GITHUB</a></span></li>
-    </ul>
-</aside>
 <div>
-    <img id="ictImage" src="media/ict image.jpg" alt="ict image" width="400" height="auto"
+    <img id="ictImage" src="public/img/ict image.jpg" alt="ict image" width="400" height="auto"
          style="position: absolute; right: 20px; top: 150px;">
-    <img id="ictImage2" src="media/ict image 2.jpg" alt="ict image 2" width="400" height="auto"
+    <img id="ictImage2" src="public/img/ict image 2.jpg" alt="ict image 2" width="400" height="auto"
          style="position: absolute; right: 20px; top: 500px;">
 </div>
+</x-layout>
 </body>
 
 </html>
